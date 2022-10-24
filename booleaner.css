@@ -25,7 +25,7 @@ h1{
   }
 
   #autore{
-    margin-bottom: 0%;
+    margin: 0%;
   }
 
   #data{
@@ -45,4 +45,36 @@ h1{
 .pedici{
     font-size: 60%;
     margin: 0%;
+}
+
+
+#ul-lorem-ipsium{
+    padding-left: 15px;
+}
+
+ktable{
+    width: 100%;
+    text-align: left;
+}
+
+.table-section{
+    height: 100px;
+}
+
+.cella_centrale{
+    height: 100px;
+    width: 400px;
+    text-align: left;
+}
+
+#thead_titolo{
+
+
+
+}
+
+.cella_titolo{
+    height: 10px;
+    width: 400px;
+    text-align: left;
 }
