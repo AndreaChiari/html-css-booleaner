@@ -52,9 +52,9 @@ h1{
     padding-left: 15px;
 }
 
-ktable{
-    width: 100%;
-    text-align: left;
+table{
+    
+    border-spacing: 0;
 }
 
 .table-section{
@@ -65,9 +65,12 @@ ktable{
     height: 100px;
     width: 400px;
     text-align: left;
+    padding: 0;
+    
 }
 
 #thead_titolo{
+background-color: rgb(85, 147, 219);
 
 
 
@@ -77,4 +80,14 @@ ktable{
     height: 10px;
     width: 400px;
     text-align: left;
+    color: white;
+    padding: 0;
+}
+
+#riga_colore_1{
+    background-color: rgb(193, 218, 247);
+}
+
+#riga_colore_2{
+    background-color: rgb(193, 218, 247);
 }
