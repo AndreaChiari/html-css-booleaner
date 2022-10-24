@@ -3,125 +3,158 @@ header{
     margin: auto;
       }
 
-body{
-    width: 900px;
-    margin: auto;
-    height: auto;
-    }
+      body{
+          width: 900px;
+          margin: auto;
+          
+              }
+              
+              /*titolo principale*/
+              
+              
+      #the_title{
+          color: white;
+          height: 60px;
+          top: 30px;
+          left: 40px;
+          position: relative;
+          font-size: 30px;
+                  
+              }
+              
+      #Booleaner_title{
+          color: white;
+          height: 60px;
+          top: -75px;
+          position: relative;
+          font-size: 60px;
+                  
+              
+              }
+      #header-img{
+          height: 130px;
+          width: 1000px;
+          margin: auto;
+          background-color: rgba(24, 82, 206, 0.616);
+          background-image: url(img/pattern.png);
+          background-repeat: repeat-x;
+          background-size: 300px;
+          
+                  }
+      
+                  /*titolo e immagini*/
+              
+      h1{
+          margin-bottom: 0px;
+        }
+      
+        #autore{
+          margin: 0%;
+          color: grey
+        }
+      
+        a{
+          color: rgb(90, 170, 216);
+          text-decoration: none;
+        }
+      
+        #data{
+          font-size: 70%;
+          margin-top:  0%;
+        }
+      
+      #a{
+          width: 499px;
+        }
+          
+      #b{
+          height: 333px;
+          width: 397px;
+         }
+      
+      .pedici{
+          font-size: 60%;
+          margin: 0%;
+      }
+      
+      
+      #ul-lorem-ipsium{
+          padding-left: 15px;
+      }
+      
+                  /*tabella*/
+      
+      table{
+                      
+      border-spacing: 0;
+      }
+      
+      #thead_titolo{
+          background-color: rgb(85, 147, 219);
+      }
+      
+      .cella_titolo{
+          height: 10px;
+          width: 400px;
+          text-align: left;
+          color: white;
+          padding: 0;
+      }
+      
+      .table-section{
+      height: 100px;}
+                      
+      .cella_centrale{
+          height: 100px;
+          width: 400px;
+          text-align: left;
+          padding: 0;}
+          
+      #riga_colore_1{
+          background-color: rgb(193, 218, 247);
+          }
+          
+      #riga_colore_2{
+          background-color: rgb(193, 218, 247);
+          }
+          
+      #footer_title{
+          color: grey;
+              
+          }
+      
+      
+                   /*footer*/
+      
+      
+      #footer_div_monitor{
+          width: 300px;
+          height: 208px;
+          margin: 0px;
+          background-image: url(img/monitor.jpg) 
+          }
+          
+      .footer_lorem_picture{
+          font-size: 30px;
+          color: white;
+          padding-top: 10px;
+          padding-left: 7px;
+          margin-top: 5%;
+          }
+          
+      #footer_div_graph{
+          background-image: url(img/graph.jpg);
+          background-repeat: no-repeat;
+          width: 300px;
+          height: 250px;
+      }
+          
+          
 
-#header-img{
-    height: 130px;
-    width: 1000px;
-    margin: auto;
-    background-color: rgba(24, 82, 206, 0.616);
-    background-image: url(img/pattern.png);
-    background-repeat: repeat-x;
-    background-size: 300px;
-    
-            }
-
-            /*titolo e immagini*/
-        
-h1{
-    margin-bottom: 0px;
-  }
-
-  #autore{
-    margin: 0%;
-  }
-
-  #data{
-    font-size: 70%;
-    margin-top:  0%;
-  }
-
-#a{
-    width: 499px;
-  }
-    
-#b{
-    height: 333px;
-    width: 397px;
-   }
-
-.pedici{
-    font-size: 60%;
-    margin: 0%;
-}
-
-
-#ul-lorem-ipsium{
-    padding-left: 15px;
-}
-
-            /*tabella*/
-
-table{
-                
-border-spacing: 0;
-}
-
-#thead_titolo{
-    background-color: rgb(85, 147, 219);
-}
-
-.cella_titolo{
-    height: 10px;
-    width: 400px;
-    text-align: left;
-    color: white;
-    padding: 0;
-}
-
-.table-section{
-height: 100px;}
-                
-.cella_centrale{
-    height: 100px;
-    width: 400px;
-    text-align: left;
-    padding: 0;}
-    
-#riga_colore_1{
-    background-color: rgb(193, 218, 247);
-    }
-    
-#riga_colore_2{
-    background-color: rgb(193, 218, 247);
-    }
-    
-#footer_title{
-    color: grey;
-        
-    }
-
-
-             /*footer*/
-
-
-#footer_div_monitor{
-    width: 300px;
-    height: 208px;
-    margin: 0px;
-    background-image: url(img/monitor.jpg) 
-    }
-    
-#footer_lorem_picture{
-    font-size: 30px;
-    color: white;
-    padding-top: 10px;
-    padding-left: 7px;
-    margin-top: 5%;
-    }
-    
-#footer_div_graph{
-    background-image: url(img/graph.jpg);
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 250px;
-}
-    
-    
+      
+      
+      
+      
 
 
 
